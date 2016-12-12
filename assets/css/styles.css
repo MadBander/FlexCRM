@@ -1,4 +1,4 @@
-.navbar-ct-blue {
+//.navbar-ct-blue {
   background: linear-gradient(to bottom, #1DC7EA 0%, #1dcfea 100%);
   transition: all 1s ease-in;
 }
@@ -130,34 +130,38 @@ h1.logo {
   clear:both;
 }
 .round {
-  margin:0;
+  margin:10px 0 0;
   padding:0;
   display:inline-block;
   width:150px;
-  height:210px;
-  padding:0 20px;
+  height:170px;
+  padding:0 0 0 20px;
   text-align:center;
   vertical-align: top;
 }
+.round:first-child { padding:0; }
+.round .wrapi {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: #2196f3 solid 2px;
+    border-radius: 50%;
+    margin:10px auto 20px;
+}
 .round i {
-  display:block;
-  width:80px;
-  height:80px;
-  line-height:75px;
-  text-align:center;
-  border:#2196f3 solid 2px;
-  color:#2196f3;
-  font-size:2em;
-  border-radius:50%;
-  vertical-align: top;
-  margin:20px auto;
+  line-height: 97px;
+  font-size: 3.7em;
+  width: 100%;
+  height: 100%;
+  color: #2196f3;
 }
 
 .features {
-  margin-top:40px;
+  margin-top:25px;
   font-weight:800;
 }
 
 .space {
   height:50px;
 }
+.tac {text-align: center}
